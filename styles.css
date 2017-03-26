@@ -76,12 +76,114 @@ body{
 .services{
   background-color: #f2f2f2;
   padding: 60px 40px;
-  text-align: left;
   height: 498px;
   color: #666d89;
-  font-family: Lato, sans-serif;
   border-bottom: 6px solid #FFFFFF;
+  display: inline-block;
 }
+
+.pencil{
+  max-width: 320px;
+  float:left;
+  margin: 0px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+
+.pencil img{
+  display: inline;
+  float: left;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  padding-top: 28px;
+  display: inline;
+}
+
+.bulb{
+  max-width: 320px;
+  float: left;
+  margin: 0px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+
+.bulb img{
+  display: inline;
+  float: left;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  padding-top: 28px;
+  display: inline;
+}
+
+
+.heart{
+  max-width: 320px;
+  float: left;
+  margin: 0px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+
+.heart img{
+  display: inline;
+  float: left;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  padding-top: 28px;
+  display: inline;
+}
+
+.phone{
+  max-width: 320px;
+  float: left;
+  margin: 0px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+
+.phone img{
+  display: inline;
+  float: left;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  padding-top: 28px;
+}
+
+.star{
+  max-width: 320px;
+  float: left;
+  margin: 0px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+
+.star img{
+  display: inline;
+  float: left;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  padding-top: 28px;
+  display: inline;
+}
+
+.support{
+  max-width: 320px;
+  float: left;
+  margin: 0px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+
+.support img{
+  display: inline;
+  float: left;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  padding-top: 28px;
+  display: inline;
+}
+
 
 .portfolio{
   background-color: #2d303a;
@@ -131,22 +233,39 @@ body{
   padding: 60px 40px;
   color: #666d89;
   overflow:hidden;
+  margin-left: 120px;
 }
 
 .about img{
-  padding-right: 18px;
+  padding-right: 58px;
   padding-top: 26px;
   text-align: center;
-  width: 25%;
-  max-width: 780px;
+  max-width: 860px;
 }
 
-.names{
+.about p{
+  max-width: 975px;
+}
+
+.adam{
 float:left;
 margin: 0px;
-padding-right: 180px;
-text-align: center;
+padding-right: 20px;
+max-width: 330px;
+}
 
+.des{
+float:left;
+margin: 0px;
+padding-right: 20px;
+max-width: 330px;
+}
+
+.scolara{
+float:left;
+margin: 0px;
+padding-right: 20px;
+max-width: 330px;
 }
 
 .quote{
@@ -157,9 +276,56 @@ text-align: center;
   color: #f0d8d9;
 }
 
+.information{
+  max-width: 600px;
+  float:right;
+  margin-top: 30px;
+}
+
+.information img{
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.information ul{
+  float:right;
+  list-style: none;
+  margin-right: 386px;
+}
+
+.name{
+  height: 40px;
+  width: 620px;
+  background-color: #d6564f;
+  margin-top: 60px;
+}
+
+.email{
+  height: 40px;
+  width: 620px;
+  background-color: #d6564f;
+}
+
+.subject{
+  height: 40px;
+  width: 620px;
+  background-color: #d6564f;
+}
+
+.detail{
+  height: 202px;
+  width: 620px;
+  background-color: #d6564f;
+}
+
 .footer{
   height: 20px;
   background-color: #2d2f3b;
   padding: 40px 36px;
   color: #666d89;
+
+}
+
+.footer img{
+  float: right;
 }
